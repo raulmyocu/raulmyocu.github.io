@@ -38,7 +38,7 @@ spotify_username:
 google-analytics:  #UA-163806439-1
 
 # Disqus
-disqus-shortname: raulmyocu
+disqus-shortname:
 
 # Name of the Author
 author-name: Raúl Murcia
