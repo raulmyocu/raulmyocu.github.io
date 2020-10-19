@@ -160,8 +160,11 @@ The thing we must understand here is that a Turing machine is capable of
 computing everything a modern computer can also do. The set of inputs for which
 a Turing machine $M$ outputs True, is called *The Language of M*, $L(M)$, and
 it is said that the set of all possible languages $L$ that the language of a
-machine M, $i.e.$ $\\{L \in \Sigma * \mid \exists M, L(M) = L \\}$, are called
-Recursively Enumerable Languages.
+machine M, $i.e.$ $\\{L \in \text{Pot}( \Sigma^* ) \mid \exists M, L(M) = L \\}$,
+are called Recursively Enumerable Languages, where $ \Sigma^* $ is the set of all
+possible inputs with alphabet $\Sigma$, so that $\text{Pot}( \Sigma^* $) is the
+set of all possible languages.
+
 
 An important thing to clarify, is that for the machine to output a result, it must
 **halt**. Eventually the machine arrives at a certain combination of state and
